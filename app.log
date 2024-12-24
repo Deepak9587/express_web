@@ -1,0 +1,20 @@
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/teas\",\"status\":\"201\",\"responseTime\":\"1.471\"}","timestamp":"2024-12-24T11:10:03.381Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/teas\",\"status\":\"201\",\"responseTime\":\"0.412\"}","timestamp":"2024-12-24T11:10:03.712Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/teas\",\"status\":\"201\",\"responseTime\":\"0.481\"}","timestamp":"2024-12-24T11:10:04.159Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/teas\",\"status\":\"201\",\"responseTime\":\"0.115\"}","timestamp":"2024-12-24T11:10:04.458Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/teas\",\"status\":\"201\",\"responseTime\":\"0.271\"}","timestamp":"2024-12-24T11:10:04.824Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/teas\",\"status\":\"201\",\"responseTime\":\"0.258\"}","timestamp":"2024-12-24T11:10:05.238Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/teas/1\",\"status\":\"200\",\"responseTime\":\"1.588\"}","timestamp":"2024-12-24T11:10:23.869Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Push routes is called----","timestamp":"2024-12-24T11:11:19.829Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/teas\",\"status\":\"201\",\"responseTime\":\"4.135\"}","timestamp":"2024-12-24T11:11:19.835Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Push routes is called----","timestamp":"2024-12-24T11:11:21.451Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/teas\",\"status\":\"201\",\"responseTime\":\"1.285\"}","timestamp":"2024-12-24T11:11:21.453Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Push routes is called----","timestamp":"2024-12-24T11:11:22.006Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/teas\",\"status\":\"201\",\"responseTime\":\"1.565\"}","timestamp":"2024-12-24T11:11:22.008Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Push routes is called----","timestamp":"2024-12-24T11:11:22.363Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/teas\",\"status\":\"201\",\"responseTime\":\"0.338\"}","timestamp":"2024-12-24T11:11:22.363Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Push routes is called----","timestamp":"2024-12-24T11:11:22.790Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/teas\",\"status\":\"201\",\"responseTime\":\"0.950\"}","timestamp":"2024-12-24T11:11:22.791Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Push routes is called----","timestamp":"2024-12-24T11:11:23.162Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/teas\",\"status\":\"201\",\"responseTime\":\"1.055\"}","timestamp":"2024-12-24T11:11:23.163Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/teas/1\",\"status\":\"200\",\"responseTime\":\"1.125\"}","timestamp":"2024-12-24T11:11:25.107Z"}

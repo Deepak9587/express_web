@@ -1,15 +1,35 @@
 import express from "express";
+import logger from "./logger.js";
+import morgan from "morgan";
 
 const app = express();
 const port = 3000;
 app.use(express.json());
+
+
+const morganFormat = ":method :url :status :response-time ms";
+app.use(
+  morgan(morganFormat, {
+    stream: {
+      write: (message) => {
+        const logObject = {
+          method: message.split(" ")[0],
+          url: message.split(" ")[1],
+          status: message.split(" ")[2],
+          responseTime: message.split(" ")[3],
+        };
+        logger.info(JSON.stringify(logObject));
+      },
+    },
+  })
+);
 
 let teaData = [];
 let nextId = 1;
 
 // add a new tea
 app.post("/teas", (req, res) => {
-  console.log("POST", req.body);
+  // logger.info("Push routes is called----")
   const { name, price } = req.body;
   const newData = { id: nextId++, name: name, price: price };
   teaData.push(newData);
@@ -18,7 +38,6 @@ app.post("/teas", (req, res) => {
 
 //get all tea
 app.get("/teas", (req, res) => {
-  console.log("GET", req.body);
   res.status(201).send(teaData);
 });
 
